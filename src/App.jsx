@@ -14,6 +14,7 @@ import Idhook from "./Component/Idhook";
 import Layout from "./Component/Layout";
 import Statusbar from "./Component/custom/Statusbar";
 import Formm from "./Component/custom/Formm";
+import Details from "./Component/customhook/Details";
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
       {/* <Select/> */}
       <Statusbar/>
       <Formm/>
+    <Details/>
     </>
   )
 }
