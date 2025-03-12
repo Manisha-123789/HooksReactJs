@@ -29,11 +29,11 @@ function Reducer() {
             <h1>Use Reduceer Hook</h1>
             <h1>Initial Value : {state.count}</h1>
             <input type="text" value={state.count} 
-            onChange={() => 
+            onChange={(e) => 
             dispatch({ type: 'input', payload:Number(e.target.value) })} />
 
             <button type="button" onClick={() => dispatch({ type: 'increase' })}>increase</button>
-            <button type="button" onClick={() => dispatch({ type: 'decrease' })}>increase</button>
+            <button type="button" onClick={() => dispatch({ type: 'decrease' })}>Decrease</button>
         </>
     )
 }

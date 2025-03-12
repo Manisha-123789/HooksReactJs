@@ -10,6 +10,10 @@ import Footer from "./Component/usecontexthook/Footer";
 import Profile from "./Component/usecontexthook/Profile";
 import Main from "./Component/usecontexthook/Main";
 import Reducer from "./Component/Reducer";
+import Idhook from "./Component/Idhook";
+import Layout from "./Component/Layout";
+import Statusbar from "./Component/custom/Statusbar";
+import Formm from "./Component/custom/Formm";
 
 
 function App() {
@@ -33,8 +37,13 @@ function App() {
         </Contextprovider>
         <Main />
       </ThemeContextProvider> */}
+      {/* <Idhook/>
 
       <Reducer/>
+      <Layout/> */}
+      {/* <Select/> */}
+      <Statusbar/>
+      <Formm/>
     </>
   )
 }
